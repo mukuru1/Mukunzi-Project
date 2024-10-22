@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
@@ -10,11 +10,11 @@
 <link rel="stylesheet" href="styles.css" />
         <title>TravelAfrica</title>
         </head>
-        <body>
+        <body>  
             <nav>
                 <div class="nav__header">
                     <div class="nav__logo">
-                        <a href="#" class="logo">TavelA<span>Africa</span></a>
+                        <a href="#" class="logo">TravelA<span>Africa</span></a>
                     </div>
                     <div class="nav__menu__btn" id="menu-btn">
                        <i class="ri-menu-line"></i> 
@@ -26,8 +26,56 @@
                     <li><a href="#destination">Destination</a></li>
                     <li><a href="#client">Client</a></li>
                     <li><a href="#package">Package</a></li>
+                    </ul>
             </nav>
+            <header class="header" id="home">
+                <div class="section__container header__container">
+                    <h1>TRAVELLER<br><span>FOR LIFE.</span></h1>
+                    <p>Live your best moments.</p>
+                    <form action="/">
+                        <div class="input__group">
+                            <span><i class="ri-map-2-fill"></i></span>
+                            <input type="text" placeholder="Where are you going?" />    
+                        </div>
+                        <div class="input__group">
+                            <span><i class="ri-map-pin-2-fill"></i></span>
+                            <input type="text" placeholder="location" />    
+                        </div>
+                        <div class="input__group">
+                            <span><i class="ri-list-ordered-2"></i></span>
+                            <input type="text" placeholder="Tour type" />    
+                        </div>
+                        <div class="input__group">
+                            <button class="btn">Search</button>
+                    </form>
+                    </div>
+            </header>
 
+            <section class="section__container feature__conatiner" id="service">
+                <div class="feature__card">
+                    <img src="feature 1.png" alt="feature">
+                    <div>
+                        <h4>Best Destinations</h4>
+                        <p>Discover the most breathtaking places in Africa</p>
+                    </div>
+                </div>
+                <div class="feature__card">
+                    <img src="feature 2.webp" alt="feature">
+                    <div>
+                        <h4>Best Prices Guaranteed</h4>
+                        <p>Enjoy unbeatable prices on every trip you book.</p>
+                    </div>
+                </div>
+                <div class="feature__card">
+                    <img src="feature 3.jpg" alt="feature">
+                    <div>
+                        <h4>Instant Booking</h4>
+                        <p>Secure your dream vacation with just a click.</p>
+                    </div>
+                </div>
+            </section>
+
+            <script src="https://unpkg.com/scrollreveal"></script>
             <script src="main.js"></script>
             </body>
 </html>
