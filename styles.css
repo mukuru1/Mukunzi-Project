@@ -398,8 +398,109 @@ nav{
 
 .client__card h5{
     font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--header-font);
+    color: var(--text-light);
+}
+
+.subscribe{
+    padding-block: 5rem;
+    background-color: var(--primary-color-dark);
+}
+
+.subscribe__container{
+    display: grid;
+    gap: grid;
+    text-align: center;
+}
+
+.subscribe__container h2{
+    font-size: 2.75rem;
+    font-weight: 200;
+    font-family: var(--header-font);
+    color: var(--white);
+}
+
+.subscribe__container p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: var(--header-font);
+    line-height: 1.75rem;
+    color: var(--white);
+}
+
+.subscribe__container form{
+    width: 100%;
+    max-width: 450px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.subscribe__container input{
+    width: 100%;
+    padding-inline: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--text-dark);
+}
+
+.footer__container{
+    display: grid;
+    gap: 4rem 2rem;
+}
+
+.footer__col p{
+    margin-block: 1rem;
+    font-family: var(--header-font);
+    color: var(--text-light);
+    line-height: 1.5rem;
+}
+
+.footer__col h4{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--text-dark);
+}
+
+.footer__socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__socials a{
+    font-size: 1.25rem;
+    color: var(--text-light);
+}
+
+.footer__socials a:hover{
+    color: var(--primary-color);
+}
+
+.footer__links{
+    display: grid;
+    gap: 1rem;
+}
+
+.footer__links a{
+    font-family: var(--header-font);
+    color: var(--text-light);
+}
+
+.footer__links a:hover {
+    color: var(--primary-color);
+}
+
+.footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    text-align: center;
 }
 
 @media (width > 540px) {
@@ -414,6 +515,10 @@ nav{
     .package__grid{
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+    }
+
+    .footer__container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -458,6 +563,23 @@ nav{
 
     .package__grid{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .subscribe__container{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: left;
+    }
+
+    .subscribe__container form{
+        margin-inline-start: unset;
+    } 
+
+    .subscribe__container p{
+        max-width: 400px;
+    }
+
+    .footer__container p{
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
