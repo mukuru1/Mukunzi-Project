@@ -310,7 +310,7 @@ nav{
     font-size: 2rem;
 }
 
-.package_grid{
+.package__grid{
     margin-top: 4rem;
     display: grid;
     gap: 1rem;
