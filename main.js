@@ -41,3 +41,8 @@
    ...scrollRevealOption,
    interval: 500,
 });
+
+ScrollReveal().reveal(".package__card",{
+   ...scrollRevealOption,
+   interval: 500,
+});
