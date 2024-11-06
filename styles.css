@@ -355,11 +355,11 @@ nav{
 
 @media (width > 540px) {
     .feature__container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .destination__grid{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .package__grid{
@@ -406,10 +406,18 @@ nav{
     .destination__grid{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .package__grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (width > 1024px) {
     .destination__grid{
         gap:2rem;
+    }
+
+    .package__grid{
+        gap: 2rem;
     }
 }
